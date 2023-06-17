@@ -1,0 +1,165 @@
+{
+    "stat": {
+        "ru_self_end": {
+            "ru_minflt": 19546,
+            "ru_utime_sec": 0.082102999999999995,
+            "ru_stime_sec": 0.035610999999999997,
+            "ru_maxrss_kb": 60204,
+            "ru_majflt": 0,
+            "ru_nvcsw": 30,
+            "ru_nivcsw": 46
+        },
+        "peak_mem_kb": 185784,
+        "ru_childs_end": {
+            "ru_minflt": 585,
+            "ru_utime_sec": 0.001052,
+            "ru_stime_sec": 0.002104,
+            "ru_maxrss_kb": 13608,
+            "ru_majflt": 0,
+            "ru_nvcsw": 1,
+            "ru_nivcsw": 2
+        }
+    },
+    "Modules": {
+        "...MASTER...": {
+            "nQuads": 0,
+            "start_perf": [
+                0.17389902996364981,
+                0.059630000000000002,
+                0.029326000000000001,
+                172568,
+                185784,
+                1667755066.1445229
+            ],
+            "end_perf": [
+                0.18084002996329218,
+                0.062153,
+                0.030582999999999999,
+                174452,
+                185784
+            ],
+            "nMops": 0
+        },
+        "TestBench": {
+            "nQuads": 116,
+            "start_perf": [
+                0.19113302999176085,
+                0.069339999999999999,
+                0.033679000000000001,
+                176384,
+                185784,
+                1667755066.161757
+            ],
+            "Compiled": "Yes",
+            "end_perf": [
+                0.19413203001022339,
+                0.072322999999999998,
+                0.033685,
+                176384,
+                185784
+            ],
+            "Compiled Times": 1,
+            "nMops": 142
+        },
+        "std": {
+            "nQuads": 426,
+            "start_perf": [
+                0.18099602998699993,
+                0.06225,
+                0.030630999999999999,
+                174452,
+                185784,
+                1667755066.1516199
+            ],
+            "Compiled": "Yes",
+            "end_perf": [
+                0.19106902997009456,
+                0.069295999999999996,
+                0.033658,
+                176384,
+                185784
+            ],
+            "Compiled Times": 8,
+            "nMops": 897
+        },
+        "testbench": {
+            "nQuads": 288,
+            "start_perf": [
+                0.19421802996657789,
+                0.072382000000000002,
+                0.033711999999999999,
+                176384,
+                185784,
+                1667755066.1648419
+            ],
+            "Compiled": "Yes",
+            "end_perf": [
+                0.20196003001183271,
+                0.079184000000000004,
+                0.034643,
+                176536,
+                185784
+            ],
+            "Compiled Times": 1,
+            "nMops": 434
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "bytes": 4870,
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "checksum": 0
+        },
+        "iAVhC_d": {
+            "archive": "archive.22/_96533_archive_1.a",
+            "mod": "testbench",
+            "bytes": 14030,
+            "out": "iAVhC_d.o",
+            "mode": 4,
+            "checksum": 0
+        },
+        "reYIK_d": {
+            "archive": "archive.22/_96533_archive_1.a",
+            "mod": "std",
+            "bytes": 21090,
+            "out": "reYIK_d.o",
+            "mode": 4,
+            "checksum": 0
+        },
+        "xKpvN_d": {
+            "archive": "archive.22/_96533_archive_1.a",
+            "mod": "TestBench",
+            "bytes": 6710,
+            "out": "xKpvN_d.o",
+            "mode": 4,
+            "checksum": 0
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    21090
+                ],
+                [
+                    "xKpvN_d.o",
+                    6710
+                ],
+                [
+                    "iAVhC_d.o",
+                    14030
+                ],
+                [
+                    "amcQwB.o",
+                    40068
+                ]
+            ],
+            "archive": "archive.22/_96533_archive_1.a",
+            "size": 81898
+        }
+    ]
+}

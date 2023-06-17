@@ -1,0 +1,715 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "ParamCounterTop")
+(DATE "Sun Nov  6 19:06:28 2022")
+(VENDOR "saed90nm_typ")
+(PROGRAM "Synopsys Design Compiler cmos")
+(VERSION "N-2017.09-SP3")
+(DIVIDER /)
+(VOLTAGE 1.20:1.20:1.20)
+(PROCESS "TYPICAL")
+(TEMPERATURE 25.00:25.00:25.00)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "ParamCounterTop")
+  (INSTANCE)
+  (DELAY
+    (ABSOLUTE
+    (INTERCONNECT OutEnable U3/INP (0.026:0.026:0.026) (0.025:0.025:0.025))
+    (INTERCONNECT Clock U2/INP (0.026:0.026:0.026) (0.025:0.025:0.025))
+    (INTERCONNECT CountEnable U1/INP (0.026:0.026:0.026) (0.025:0.025:0.025))
+    (INTERCONNECT U3/Z Converter01/U4/INP (0.074:0.099:0.099) (0.071:0.098:0.098))
+    (INTERCONNECT U3/Z Converter01/U3/INP (0.074:0.099:0.099) (0.071:0.098:0.098))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[23\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[22\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[21\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[20\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[19\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[18\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[17\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[16\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[15\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[14\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[13\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[12\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[11\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[10\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[9\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[8\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/CountReg_reg\[7\]/Q Converter01/OutBusGate_tri\[7\]/INOUT1 (0.742:0.742:0.742) (0.773:0.773:0.773))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[7\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/CountReg_reg\[6\]/Q Converter01/OutBusGate_tri\[6\]/INOUT1 (0.742:0.742:0.742) (0.773:0.773:0.773))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[6\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/CountReg_reg\[5\]/Q Converter01/OutBusGate_tri\[5\]/INOUT1 (0.742:0.742:0.742) (0.773:0.773:0.773))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[5\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/CountReg_reg\[4\]/Q Converter01/OutBusGate_tri\[4\]/INOUT1 (0.742:0.742:0.742) (0.773:0.773:0.773))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[4\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/CountReg_reg\[3\]/Q Converter01/OutBusGate_tri\[3\]/INOUT1 (0.742:0.742:0.742) (0.773:0.773:0.773))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[3\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/CountReg_reg\[2\]/Q Converter01/OutBusGate_tri\[2\]/INOUT1 (0.742:0.742:0.742) (0.773:0.773:0.773))
+    (INTERCONNECT Converter01/U3/Z Converter01/OutBusGate_tri\[2\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/CountReg_reg\[1\]/Q Converter01/OutBusGate_tri\[1\]/INOUT1 (0.742:0.742:0.742) (0.773:0.773:0.773))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[1\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/CountReg_reg\[0\]/Q Converter01/OutBusGate_tri\[0\]/INOUT1 (0.803:0.803:0.803) (0.836:0.836:0.836))
+    (INTERCONNECT Converter01/U4/Z Converter01/OutBusGate_tri\[0\]/ENB (0.082:0.082:0.082) (0.088:0.088:0.088))
+    (INTERCONNECT Counter01/U5/Z Counter01/U6/INP (0.049:0.049:0.049) (0.047:0.047:0.047))
+    (INTERCONNECT CountReset Counter01/U5/INP (0.026:0.026:0.026) (0.025:0.025:0.025))
+    (INTERCONNECT U2/Z Counter01/U4/IN2 (0.053:0.053:0.053) (0.051:0.051:0.051))
+    (INTERCONNECT U1/Z Counter01/U4/S (0.082:0.082:0.082) (0.082:0.082:0.082))
+    (INTERCONNECT Counter01/U5/Z Counter01/U3/INP (0.049:0.049:0.049) (0.047:0.047:0.047))
+    (INTERCONNECT Counter01/add_40/U1_1_6/C1 Counter01/add_40/U2/IN1 (0.071:0.071:0.071) (0.068:0.068:0.068))
+    (INTERCONNECT Counter01/CountReg_reg\[7\]/Q Counter01/add_40/U2/IN2 (0.086:0.086:0.086) (0.084:0.084:0.084))
+    (INTERCONNECT Counter01/CountReg_reg\[0\]/Q Counter01/add_40/U1/INP (0.053:0.053:0.053) (0.051:0.051:0.051))
+    (INTERCONNECT Counter01/CountReg_reg\[1\]/Q Counter01/add_40/U1_1_1/A0 (0.092:0.092:0.092) (0.089:0.089:0.089))
+    (INTERCONNECT Counter01/CountReg_reg\[0\]/Q Counter01/add_40/U1_1_1/B0 (0.083:0.083:0.083) (0.084:0.084:0.084))
+    (INTERCONNECT Counter01/CountReg_reg\[2\]/Q Counter01/add_40/U1_1_2/A0 (0.092:0.092:0.092) (0.089:0.089:0.089))
+    (INTERCONNECT Counter01/add_40/U1_1_1/C1 Counter01/add_40/U1_1_2/B0 (0.056:0.056:0.056) (0.057:0.057:0.057))
+    (INTERCONNECT Counter01/CountReg_reg\[3\]/Q Counter01/add_40/U1_1_3/A0 (0.092:0.092:0.092) (0.089:0.089:0.089))
+    (INTERCONNECT Counter01/add_40/U1_1_2/C1 Counter01/add_40/U1_1_3/B0 (0.056:0.056:0.056) (0.057:0.057:0.057))
+    (INTERCONNECT Counter01/CountReg_reg\[4\]/Q Counter01/add_40/U1_1_4/A0 (0.092:0.092:0.092) (0.089:0.089:0.089))
+    (INTERCONNECT Counter01/add_40/U1_1_3/C1 Counter01/add_40/U1_1_4/B0 (0.056:0.056:0.056) (0.057:0.057:0.057))
+    (INTERCONNECT Counter01/CountReg_reg\[5\]/Q Counter01/add_40/U1_1_5/A0 (0.092:0.092:0.092) (0.089:0.089:0.089))
+    (INTERCONNECT Counter01/add_40/U1_1_4/C1 Counter01/add_40/U1_1_5/B0 (0.056:0.056:0.056) (0.057:0.057:0.057))
+    (INTERCONNECT Counter01/CountReg_reg\[6\]/Q Counter01/add_40/U1_1_6/A0 (0.092:0.092:0.092) (0.089:0.089:0.089))
+    (INTERCONNECT Counter01/add_40/U1_1_5/C1 Counter01/add_40/U1_1_6/B0 (0.056:0.056:0.056) (0.057:0.057:0.057))
+    (INTERCONNECT Counter01/add_40/U2/Q Counter01/CountReg_reg\[7\]/D (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT Counter01/U4/Q Counter01/CountReg_reg\[7\]/CLK (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT Counter01/U3/ZN Counter01/CountReg_reg\[7\]/RSTB (0.101:0.101:0.101) (0.113:0.113:0.113))
+    (INTERCONNECT Counter01/add_40/U1_1_6/SO Counter01/CountReg_reg\[6\]/D (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT Counter01/U4/Q Counter01/CountReg_reg\[6\]/CLK (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT Counter01/U3/ZN Counter01/CountReg_reg\[6\]/RSTB (0.101:0.101:0.101) (0.113:0.113:0.113))
+    (INTERCONNECT Counter01/add_40/U1_1_5/SO Counter01/CountReg_reg\[5\]/D (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT Counter01/U4/Q Counter01/CountReg_reg\[5\]/CLK (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT Counter01/U3/ZN Counter01/CountReg_reg\[5\]/RSTB (0.101:0.101:0.101) (0.113:0.113:0.113))
+    (INTERCONNECT Counter01/add_40/U1_1_4/SO Counter01/CountReg_reg\[4\]/D (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT Counter01/U4/Q Counter01/CountReg_reg\[4\]/CLK (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT Counter01/U6/ZN Counter01/CountReg_reg\[4\]/RSTB (0.101:0.101:0.101) (0.113:0.113:0.113))
+    (INTERCONNECT Counter01/add_40/U1_1_3/SO Counter01/CountReg_reg\[3\]/D (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT Counter01/U4/Q Counter01/CountReg_reg\[3\]/CLK (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT Counter01/U6/ZN Counter01/CountReg_reg\[3\]/RSTB (0.101:0.101:0.101) (0.113:0.113:0.113))
+    (INTERCONNECT Counter01/add_40/U1_1_2/SO Counter01/CountReg_reg\[2\]/D (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT Counter01/U4/Q Counter01/CountReg_reg\[2\]/CLK (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT Counter01/U6/ZN Counter01/CountReg_reg\[2\]/RSTB (0.101:0.101:0.101) (0.113:0.113:0.113))
+    (INTERCONNECT Counter01/add_40/U1_1_1/SO Counter01/CountReg_reg\[1\]/D (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT Counter01/U4/Q Counter01/CountReg_reg\[1\]/CLK (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT Counter01/U6/ZN Counter01/CountReg_reg\[1\]/RSTB (0.101:0.101:0.101) (0.113:0.113:0.113))
+    (INTERCONNECT Counter01/add_40/U1/ZN Counter01/CountReg_reg\[0\]/D (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT Counter01/U4/Q Counter01/CountReg_reg\[0\]/CLK (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT Counter01/U3/ZN Counter01/CountReg_reg\[0\]/RSTB (0.101:0.101:0.101) (0.113:0.113:0.113))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DELLN2X2")
+  (INSTANCE U3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP Z (0.157:0.160:0.160) (2.138:2.140:2.140))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DELLN2X2")
+  (INSTANCE U2)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP Z (0.150:0.150:0.150) (2.134:2.134:2.134))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DELLN2X2")
+  (INSTANCE U1)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP Z (0.153:0.153:0.153) (2.135:2.135:2.135))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "NBUFFX2")
+  (INSTANCE Converter01/U4)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP Z (0.096:0.097:0.097) (0.115:0.115:0.115))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "NBUFFX2")
+  (INSTANCE Converter01/U3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP Z (0.096:0.097:0.097) (0.115:0.115:0.115))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[23\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[22\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[21\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[20\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[19\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[18\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[17\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[16\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[15\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[14\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[13\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[12\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[11\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[10\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[9\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[8\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[7\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.054:0.054:0.054) (0.049:0.049:0.049))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[6\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.054:0.054:0.054) (0.049:0.049:0.049))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[5\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.054:0.054:0.054) (0.049:0.049:0.049))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[4\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.054:0.054:0.054) (0.049:0.049:0.049))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[3\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.054:0.054:0.054) (0.049:0.049:0.049))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[2\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.054:0.054:0.054) (0.049:0.049:0.049))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[1\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.054:0.054:0.054) (0.049:0.049:0.049))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BSLEX1")
+  (INSTANCE Converter01/OutBusGate_tri\[0\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INOUT1 INOUT2 (0.055:0.055:0.055) (0.049:0.049:0.049))
+    (IOPATH ENB INOUT2 () () (0.122:0.122:0.122) (0.071:0.071:0.071) (0.269:0.269:0.269) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX0")
+  (INSTANCE Counter01/U6)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP ZN (0.074:0.074:0.074) (0.072:0.072:0.072))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DELLN2X2")
+  (INSTANCE Counter01/U5)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP Z (0.153:0.153:0.153) (2.136:2.136:2.136))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "MUX21X1")
+  (INSTANCE Counter01/U4)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH IN1 Q (0.078:0.078:0.078) (0.074:0.074:0.074))
+    (IOPATH IN2 Q (0.099:0.099:0.099) (0.098:0.098:0.098))
+    (IOPATH (posedge S) Q (0.091:0.091:0.091) (0.086:0.086:0.086))
+    (IOPATH (negedge S) Q (0.097:0.097:0.097) (0.089:0.089:0.089))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX0")
+  (INSTANCE Counter01/U3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP ZN (0.074:0.074:0.074) (0.072:0.072:0.072))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2X1")
+  (INSTANCE Counter01/add_40/U2)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge IN1) Q (0.061:0.061:0.061) (0.065:0.065:0.065))
+    (IOPATH (negedge IN1) Q (0.061:0.062:0.062) (0.065:0.066:0.066))
+    (IOPATH (posedge IN2) Q (0.081:0.081:0.081) (0.080:0.080:0.080))
+    (IOPATH (negedge IN2) Q (0.080:0.080:0.080) (0.079:0.079:0.079))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX0")
+  (INSTANCE Counter01/add_40/U1)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH INP ZN (0.026:0.026:0.026) (0.029:0.029:0.029))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "HADDX1")
+  (INSTANCE Counter01/add_40/U1_1_1)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A0 C1 (0.089:0.089:0.089) (0.114:0.114:0.114))
+    (IOPATH B0 C1 (0.096:0.096:0.096) (0.109:0.109:0.109))
+    (IOPATH (posedge A0) SO (0.088:0.088:0.088) (0.078:0.078:0.078))
+    (IOPATH (negedge A0) SO (0.086:0.086:0.086) (0.077:0.077:0.077))
+    (IOPATH (posedge B0) SO (0.079:0.079:0.079) (0.083:0.083:0.083))
+    (IOPATH (negedge B0) SO (0.077:0.077:0.077) (0.081:0.081:0.081))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "HADDX1")
+  (INSTANCE Counter01/add_40/U1_1_2)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A0 C1 (0.089:0.089:0.089) (0.114:0.114:0.114))
+    (IOPATH B0 C1 (0.077:0.078:0.078) (0.090:0.090:0.090))
+    (IOPATH (posedge A0) SO (0.088:0.088:0.088) (0.078:0.078:0.078))
+    (IOPATH (negedge A0) SO (0.086:0.086:0.086) (0.077:0.077:0.077))
+    (IOPATH (posedge B0) SO (0.062:0.062:0.062) (0.067:0.068:0.068))
+    (IOPATH (negedge B0) SO (0.062:0.062:0.062) (0.068:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "HADDX1")
+  (INSTANCE Counter01/add_40/U1_1_3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A0 C1 (0.089:0.089:0.089) (0.114:0.114:0.114))
+    (IOPATH B0 C1 (0.077:0.077:0.077) (0.089:0.090:0.090))
+    (IOPATH (posedge A0) SO (0.088:0.088:0.088) (0.078:0.078:0.078))
+    (IOPATH (negedge A0) SO (0.086:0.086:0.086) (0.077:0.077:0.077))
+    (IOPATH (posedge B0) SO (0.061:0.062:0.062) (0.067:0.067:0.067))
+    (IOPATH (negedge B0) SO (0.062:0.062:0.062) (0.067:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "HADDX1")
+  (INSTANCE Counter01/add_40/U1_1_4)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A0 C1 (0.089:0.089:0.089) (0.114:0.114:0.114))
+    (IOPATH B0 C1 (0.077:0.077:0.077) (0.089:0.090:0.090))
+    (IOPATH (posedge A0) SO (0.088:0.088:0.088) (0.078:0.078:0.078))
+    (IOPATH (negedge A0) SO (0.086:0.086:0.086) (0.077:0.077:0.077))
+    (IOPATH (posedge B0) SO (0.061:0.062:0.062) (0.067:0.067:0.067))
+    (IOPATH (negedge B0) SO (0.062:0.062:0.062) (0.067:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "HADDX1")
+  (INSTANCE Counter01/add_40/U1_1_5)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A0 C1 (0.089:0.089:0.089) (0.114:0.114:0.114))
+    (IOPATH B0 C1 (0.077:0.077:0.077) (0.089:0.090:0.090))
+    (IOPATH (posedge A0) SO (0.088:0.088:0.088) (0.078:0.078:0.078))
+    (IOPATH (negedge A0) SO (0.086:0.086:0.086) (0.077:0.077:0.077))
+    (IOPATH (posedge B0) SO (0.061:0.062:0.062) (0.067:0.067:0.067))
+    (IOPATH (negedge B0) SO (0.062:0.062:0.062) (0.067:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "HADDX1")
+  (INSTANCE Counter01/add_40/U1_1_6)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A0 C1 (0.090:0.090:0.090) (0.115:0.115:0.115))
+    (IOPATH B0 C1 (0.078:0.079:0.079) (0.091:0.092:0.092))
+    (IOPATH (posedge A0) SO (0.088:0.088:0.088) (0.078:0.078:0.078))
+    (IOPATH (negedge A0) SO (0.086:0.086:0.086) (0.077:0.077:0.077))
+    (IOPATH (posedge B0) SO (0.061:0.062:0.062) (0.067:0.067:0.067))
+    (IOPATH (negedge B0) SO (0.062:0.062:0.062) (0.067:0.068:0.068))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1")
+  (INSTANCE Counter01/CountReg_reg\[7\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.231:0.232:0.232) (0.254:0.254:0.254))
+    (IOPATH (negedge RSTB) Q () (0.130:0.130:0.130))
+    (IOPATH (posedge CLK) QN (0.137:0.137:0.137) (0.120:0.120:0.120))
+    (IOPATH (negedge RSTB) QN (0.178:0.178:0.178) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.082:0.082:0.082))
+    (WIDTH (negedge CLK) (0.117:0.117:0.117))
+    (SETUP (posedge D) (posedge CLK) (0.070:0.071:0.071))
+    (SETUP (negedge D) (posedge CLK) (0.044:0.044:0.044))
+    (HOLD (posedge D) (posedge CLK) (-0.035:-0.035:-0.035))
+    (HOLD (negedge D) (posedge CLK) (-0.002:-0.003:-0.003))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.114:-0.114:-0.114))
+    (HOLD (posedge RSTB) (posedge CLK) (0.123:0.123:0.123))
+    (WIDTH (negedge RSTB) (0.103:0.103:0.103))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1")
+  (INSTANCE Counter01/CountReg_reg\[6\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.232:0.232:0.232) (0.254:0.254:0.254))
+    (IOPATH (negedge RSTB) Q () (0.130:0.130:0.130))
+    (IOPATH (posedge CLK) QN (0.137:0.137:0.137) (0.120:0.120:0.120))
+    (IOPATH (negedge RSTB) QN (0.178:0.178:0.178) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.082:0.082:0.082))
+    (WIDTH (negedge CLK) (0.117:0.117:0.117))
+    (SETUP (posedge D) (posedge CLK) (0.070:0.071:0.071))
+    (SETUP (negedge D) (posedge CLK) (0.043:0.044:0.044))
+    (HOLD (posedge D) (posedge CLK) (-0.034:-0.035:-0.035))
+    (HOLD (negedge D) (posedge CLK) (-0.002:-0.002:-0.002))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.114:-0.114:-0.114))
+    (HOLD (posedge RSTB) (posedge CLK) (0.123:0.123:0.123))
+    (WIDTH (negedge RSTB) (0.103:0.103:0.103))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1")
+  (INSTANCE Counter01/CountReg_reg\[5\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.232:0.232:0.232) (0.254:0.254:0.254))
+    (IOPATH (negedge RSTB) Q () (0.130:0.130:0.130))
+    (IOPATH (posedge CLK) QN (0.137:0.137:0.137) (0.120:0.120:0.120))
+    (IOPATH (negedge RSTB) QN (0.178:0.178:0.178) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.082:0.082:0.082))
+    (WIDTH (negedge CLK) (0.117:0.117:0.117))
+    (SETUP (posedge D) (posedge CLK) (0.070:0.071:0.071))
+    (SETUP (negedge D) (posedge CLK) (0.043:0.044:0.044))
+    (HOLD (posedge D) (posedge CLK) (-0.034:-0.035:-0.035))
+    (HOLD (negedge D) (posedge CLK) (-0.002:-0.002:-0.002))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.114:-0.114:-0.114))
+    (HOLD (posedge RSTB) (posedge CLK) (0.123:0.123:0.123))
+    (WIDTH (negedge RSTB) (0.103:0.103:0.103))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1")
+  (INSTANCE Counter01/CountReg_reg\[4\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.232:0.232:0.232) (0.254:0.254:0.254))
+    (IOPATH (negedge RSTB) Q () (0.130:0.130:0.130))
+    (IOPATH (posedge CLK) QN (0.137:0.137:0.137) (0.120:0.120:0.120))
+    (IOPATH (negedge RSTB) QN (0.178:0.178:0.178) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.082:0.082:0.082))
+    (WIDTH (negedge CLK) (0.117:0.117:0.117))
+    (SETUP (posedge D) (posedge CLK) (0.070:0.071:0.071))
+    (SETUP (negedge D) (posedge CLK) (0.043:0.044:0.044))
+    (HOLD (posedge D) (posedge CLK) (-0.034:-0.035:-0.035))
+    (HOLD (negedge D) (posedge CLK) (-0.002:-0.002:-0.002))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.114:-0.114:-0.114))
+    (HOLD (posedge RSTB) (posedge CLK) (0.123:0.123:0.123))
+    (WIDTH (negedge RSTB) (0.103:0.103:0.103))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1")
+  (INSTANCE Counter01/CountReg_reg\[3\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.232:0.232:0.232) (0.254:0.254:0.254))
+    (IOPATH (negedge RSTB) Q () (0.130:0.130:0.130))
+    (IOPATH (posedge CLK) QN (0.137:0.137:0.137) (0.120:0.120:0.120))
+    (IOPATH (negedge RSTB) QN (0.178:0.178:0.178) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.082:0.082:0.082))
+    (WIDTH (negedge CLK) (0.117:0.117:0.117))
+    (SETUP (posedge D) (posedge CLK) (0.070:0.071:0.071))
+    (SETUP (negedge D) (posedge CLK) (0.043:0.044:0.044))
+    (HOLD (posedge D) (posedge CLK) (-0.034:-0.035:-0.035))
+    (HOLD (negedge D) (posedge CLK) (-0.002:-0.002:-0.002))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.114:-0.114:-0.114))
+    (HOLD (posedge RSTB) (posedge CLK) (0.123:0.123:0.123))
+    (WIDTH (negedge RSTB) (0.103:0.103:0.103))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1")
+  (INSTANCE Counter01/CountReg_reg\[2\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.232:0.232:0.232) (0.254:0.254:0.254))
+    (IOPATH (negedge RSTB) Q () (0.130:0.130:0.130))
+    (IOPATH (posedge CLK) QN (0.137:0.137:0.137) (0.120:0.120:0.120))
+    (IOPATH (negedge RSTB) QN (0.178:0.178:0.178) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.082:0.082:0.082))
+    (WIDTH (negedge CLK) (0.117:0.117:0.117))
+    (SETUP (posedge D) (posedge CLK) (0.070:0.071:0.071))
+    (SETUP (negedge D) (posedge CLK) (0.043:0.044:0.044))
+    (HOLD (posedge D) (posedge CLK) (-0.034:-0.035:-0.035))
+    (HOLD (negedge D) (posedge CLK) (-0.002:-0.002:-0.002))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.114:-0.114:-0.114))
+    (HOLD (posedge RSTB) (posedge CLK) (0.123:0.123:0.123))
+    (WIDTH (negedge RSTB) (0.103:0.103:0.103))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1")
+  (INSTANCE Counter01/CountReg_reg\[1\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.232:0.232:0.232) (0.254:0.254:0.254))
+    (IOPATH (negedge RSTB) Q () (0.130:0.130:0.130))
+    (IOPATH (posedge CLK) QN (0.137:0.137:0.137) (0.120:0.120:0.120))
+    (IOPATH (negedge RSTB) QN (0.178:0.178:0.178) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.082:0.082:0.082))
+    (WIDTH (negedge CLK) (0.117:0.117:0.117))
+    (SETUP (posedge D) (posedge CLK) (0.070:0.071:0.071))
+    (SETUP (negedge D) (posedge CLK) (0.044:0.044:0.044))
+    (HOLD (posedge D) (posedge CLK) (-0.034:-0.035:-0.035))
+    (HOLD (negedge D) (posedge CLK) (-0.002:-0.003:-0.003))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.114:-0.114:-0.114))
+    (HOLD (posedge RSTB) (posedge CLK) (0.123:0.123:0.123))
+    (WIDTH (negedge RSTB) (0.103:0.103:0.103))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1")
+  (INSTANCE Counter01/CountReg_reg\[0\])
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.234:0.234:0.234) (0.256:0.256:0.256))
+    (IOPATH (negedge RSTB) Q () (0.133:0.133:0.133))
+    (IOPATH (posedge CLK) QN (0.137:0.137:0.137) (0.120:0.120:0.120))
+    (IOPATH (negedge RSTB) QN (0.178:0.178:0.178) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.082:0.082:0.082))
+    (WIDTH (negedge CLK) (0.117:0.117:0.117))
+    (SETUP (posedge D) (posedge CLK) (0.075:0.075:0.075))
+    (SETUP (negedge D) (posedge CLK) (0.047:0.047:0.047))
+    (HOLD (posedge D) (posedge CLK) (-0.040:-0.039:-0.039))
+    (HOLD (negedge D) (posedge CLK) (-0.006:-0.006:-0.006))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.114:-0.114:-0.114))
+    (HOLD (posedge RSTB) (posedge CLK) (0.123:0.123:0.123))
+    (WIDTH (negedge RSTB) (0.103:0.103:0.103))
+  )
+)
+)
